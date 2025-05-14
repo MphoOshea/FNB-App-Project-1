@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(135deg, #b9d4a9, #eead08);
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+/* Main heading: centered, gold color, large font size */
+h1 {
+    text-align: center;
+    color: #fffdf8;
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+/* Paragraphs: centered, light gold color, moderate font size, max width for readability */
+p {
+    text-align: center;
+    color: #35322a;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+
+ul.gallery {
+    display: grid;
+    padding: 0 20px 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Gallery items: no list style, translucent gold background, gold border, rounded corners, padding, shadow, smooth hover transition, centered text */
+li {
+    list-style-type: none;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #76d437;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on gallery items: lift up and stronger shadow for emphasis */
+li:hover {
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.7);
+    transform: translateY(-10px);
+}
+
+a {
+    text-decoration: none;
+    color: #0786b8;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+/* Link hover: change color to white for contrast */
+a:hover {
+    color: #fff;
+}
+
+/* Images: fixed height, rounded corners, centered, gold border, shadow,  */
+img {
+    width: auto;
+    height: 180px;
+    border-radius: 20px;
+    margin: 0 auto 10px auto;
+    display: block;
+    border: 3px solid #d4af37;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
